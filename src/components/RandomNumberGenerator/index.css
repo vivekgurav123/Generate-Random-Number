@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+}
+.container h1 {
+  color: #0b69ff;
+  font-size: 30px;
+}
+.content-container {
+  box-shadow: 0px 0px 20px gray;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.content-container button {
+  background-color: #0b69ff;
+  color: white;
+  padding: 7px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.content-container .random-number {
+  color: #0b69ff;
+  font-size: 35px;
+  font-weight: 700;
+}
